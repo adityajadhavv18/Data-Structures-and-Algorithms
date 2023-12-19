@@ -22,7 +22,7 @@ int binarySearch(int arr[], int size, int key)
         {
             return key;
         }
-        if (arr[mid] < key)
+        if (key > arr[mid])
         {
             start = mid + 1;
         }
