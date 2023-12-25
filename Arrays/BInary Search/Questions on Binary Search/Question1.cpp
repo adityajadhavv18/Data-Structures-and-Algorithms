@@ -59,7 +59,8 @@ int main()
     return 0;
 }
 
-class Solution
+// Leet code solution
+/*class Solution
 {
 public:
     int peakIndexInMountainArray(vector<int> &arr)
@@ -82,4 +83,4 @@ public:
         }
         return s;
     }
-};
+};*/
