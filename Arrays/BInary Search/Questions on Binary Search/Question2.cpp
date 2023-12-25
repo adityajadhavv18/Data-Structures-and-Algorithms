@@ -5,4 +5,4 @@
 //  the logical status of the peak is arr[i-1]<arr[i]>arr[i+1] "/\" <- mountain peak
 
 // condition if(arr[mid]<arr[mid + 1]) then s= mid + 1;
-// condition else{ end = mid;}
+// condition else{ end = mid,;}
