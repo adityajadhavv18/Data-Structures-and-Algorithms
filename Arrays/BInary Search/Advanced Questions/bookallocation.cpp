@@ -17,7 +17,7 @@ bool isPossible(arr, int n, int m, int mid)
     {
         if (pagesum + arr[i] <= mid) // if page sum of books is equal or lesser than the mid then the pages are assigned to the students
         {
-            pagesum += arr[i]; // the sum is added until the pages reach the value of mid
+            pagesum += arr[i]; // the sum is added until the pages reach the value of midd
         }
         else
         {
