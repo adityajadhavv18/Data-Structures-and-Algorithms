@@ -12,9 +12,11 @@ void bubblesort(int arr, int n)
 {
     for (int i = 0; i < n - 1; i++)
     {
+        // for round 1 to n-1
         bool swapped = false;
         for (int j = 0; j < n - 1; j++)
         {
+            // process element till n-i th index
             if (arr[j] > arr[j + 1])
             {
                 swap(arr[j], arr[j + 1]);
@@ -23,7 +25,7 @@ void bubblesort(int arr, int n)
         }
         if (swapped == false)
         {
-            break;
+            break; // for array which is already sorted this helps to optimize code
         }
     }
 }
