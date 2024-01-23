@@ -9,7 +9,8 @@ space complexity = O(1)
 time complexity = O(n^2) in both best and worst case
 it works good on the array of small size
 */
-
+#include <iostream>
+using namespace std;
 void selectionsort(int arr, int n)
 {
     for (int i = 0; i < n - 1; i++)
